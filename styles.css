@@ -1,0 +1,79 @@
+.numbers {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.numbers>* {
+    flex: 1 1 80px
+}
+
+.operators {
+    display: flex;
+    
+}
+.operators>* {
+    height: 75px;
+    width: 178px;
+    
+}
+
+.clear {
+    width: 356px;
+    font-size: large;
+    font-weight: 800;
+}
+
+.display {
+    display: flex;
+    height: 75px;
+    border: black solid 2px;
+    background-color: grey;   
+}
+
+.display-content {
+    position:absolute;
+    margin-right: 30px;
+    margin-top: 20px;
+    right: 0;
+    font-size:xx-large;
+    font-weight: 800;
+}
+
+.btn {
+    background-color: rgb(168, 143, 2);
+    color: black;
+    font-size: large;
+    font-weight: 800;
+    
+}
+
+.btn:hover {
+    background-color: rgba(168, 143, 2, 0.575) ;
+}
+
+.operand {
+    background-color: rgb(80, 126, 179);
+    color: black;
+    font-size: x-large;
+    font-weight: 800;
+}
+.equals {
+    background-color: rgb(80, 126, 179);
+    color: black;
+    font-size: large;
+    font-weight: 800;
+    width: 356px;
+}
+
+.operand:hover {
+    background-color: rgba(80, 126, 179, 0.671);
+}
+
+.equals:hover {
+    background-color: rgba(80, 126, 179, 0.671);
+}
+
+.clear:hover {
+    background-color: rgba(128, 128, 128, 0.459);
+}
